@@ -43,6 +43,5 @@ describe('google search with consent form - page objects', function() {
     homePage.section.getInTouchModal.expect.element('@company').attribute('class').not.contain('wpforms-error')
     homePage.section.getInTouchModal.sendKeys('@message', 'test message')
     homePage.section.getInTouchModal.expect.element('@message').attribute('class').not.contain('wpforms-error')
-
   });
 });
